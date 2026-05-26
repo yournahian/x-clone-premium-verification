@@ -1,0 +1,6 @@
+{
+  "name": "X Clone & Premium Verification",
+  "description": "An exact replica of the X.com homepage feed combined with a high-fidelity X Premium subscription page featuring verified payment gateways, including a testnet integration point for Ababil Pay.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
