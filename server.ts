@@ -102,44 +102,6 @@ async function startServer() {
     }
   });
 
-  // Serve the generated web3 jenga asset directly
-  app.get("/web3_jenga.png", (req, res) => {
-    res.sendFile("C:\\Users\\user\\.gemini\\antigravity-ide\\brain\\665f812f-312e-4746-a982-86eb49c1f1a3\\web3_jenga_1779739793694.png");
-  });
-
-  // Serve the 5 screenshot assets directly matching the user's high-fidelity feed uploads
-  app.get("/media_allaire.png", (req, res) => {
-    res.sendFile("C:\\Users\\user\\.gemini\\antigravity-ide\\brain\\665f812f-312e-4746-a982-86eb49c1f1a3\\media__1779740541423.png");
-  });
-  app.get("/media_nahin.png", (req, res) => {
-    res.sendFile("C:\\Users\\user\\.gemini\\antigravity-ide\\brain\\665f812f-312e-4746-a982-86eb49c1f1a3\\media__1779740547866.png");
-  });
-  app.get("/media_sukanto.png", (req, res) => {
-    res.sendFile("C:\\Users\\user\\.gemini\\antigravity-ide\\brain\\665f812f-312e-4746-a982-86eb49c1f1a3\\media__1779740555739.png");
-  });
-  app.get("/media_rollins.png", (req, res) => {
-    res.sendFile("C:\\Users\\user\\.gemini\\antigravity-ide\\brain\\665f812f-312e-4746-a982-86eb49c1f1a3\\media__1779740567583.png");
-  });
-  app.get("/media_koushik.png", (req, res) => {
-    res.sendFile("C:\\Users\\user\\.gemini\\antigravity-ide\\brain\\665f812f-312e-4746-a982-86eb49c1f1a3\\media__1779740571978.png");
-  });
-
-  // Serve the 5 new profile avatar pictures uploaded by the user
-  app.get("/avatar_koushik.jpg", (req, res) => {
-    res.sendFile("C:\\Users\\user\\.gemini\\antigravity-ide\\brain\\665f812f-312e-4746-a982-86eb49c1f1a3\\media__1779742383456.jpg");
-  });
-  app.get("/avatar_rollins.jpg", (req, res) => {
-    res.sendFile("C:\\Users\\user\\.gemini\\antigravity-ide\\brain\\665f812f-312e-4746-a982-86eb49c1f1a3\\media__1779742383467.jpg");
-  });
-  app.get("/avatar_sukanto.jpg", (req, res) => {
-    res.sendFile("C:\\Users\\user\\.gemini\\antigravity-ide\\brain\\665f812f-312e-4746-a982-86eb49c1f1a3\\media__1779742383480.jpg");
-  });
-  app.get("/avatar_hossain.jpg", (req, res) => {
-    res.sendFile("C:\\Users\\user\\.gemini\\antigravity-ide\\brain\\665f812f-312e-4746-a982-86eb49c1f1a3\\media__1779742383494.jpg");
-  });
-  app.get("/avatar_allaire.jpg", (req, res) => {
-    res.sendFile("C:\\Users\\user\\.gemini\\antigravity-ide\\brain\\665f812f-312e-4746-a982-86eb49c1f1a3\\media__1779742383510.jpg");
-  });
 
   // Health endpoint checks
   app.get("/api/health", (req, res) => {
